@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Tabela_Zebrada</title>
+
+    <style>
+        table,
+        th,
+        td {
+            border: 2px solid gray;
+            border-collapse: collapse;
+            text-align: center;
+            width: 200px;
+            height: 50px;
+            margin: auto;
+        }
+        .verde {
+            background-color: darkgreen;
+            color: red;
+        }
+        .amarelo {
+            background-color: yellow;
+            color: black;
+        }
+        #unico {
+            background-color: blue;
+            color: white
+        }
+    </style>
+
+</head>
+
+<body style="background-color: black;">
+
+    <h1 style="text-align: center; color:chartreuse;">Tabelas</h1>
+
+    <table>
+
+        <tr id="unico">
+
+            <th>A</th>
+
+            <th>B</th>
+
+            <th>C</th>
+
+            <th>D</th>
+
+            <th>E</th>
+
+        </tr>
+
+        <tr class="verde">
+
+            <td>xx</td>
+
+            <td>xx</td>
+
+            <td>xx</td>
+
+            <td>xx</td>
+
+            <td>xx</td>
+
+        </tr>
+
+        <tr class="amarelo">
+
+            <td>yy</td>
+
+            <td>yy</td>
+
+            <td>yy</td>
+
+            <td>yy</td>
+
+            <td>yy</td>
+
+        </tr>
+
+        <tr class="verde">
+
+            <td>zz</td>
+
+            <td>zz</td>
+
+            <td>zz</td>
+
+            <td>zz</td>
+
+            <td>zz</td>
+
+        </tr>
+
+        <tr class="amarelo">
+
+            <td>ss</td>
+
+            <td>ss</td>
+
+            <td>ss</td>
+
+            <td>ss</td>
+
+            <td>ss</td>
+
+        </tr>
+
+    </table> <br>
+
+    <table>
+
+        <tr id="unico">
+
+            <th>A</th>
+
+            <th>B</th>
+
+            <th>C</th>
+
+            <th>D</th>
+
+            <th>E</th>
+
+        </tr>
+
+        <tr>
+
+            <td class="verde">xx</td>
+
+            <td class="amarelo">xx</td>
+
+            <td class="verde">xx</td>
+
+            <td class="amarelo">xx</td>
+
+            <td class="verde">xx</td>
+
+        </tr>
+
+        <tr>
+
+            <td class="amarelo">yy</td>
+
+            <td class="verde">yy</td>
+
+            <td class="amarelo">yy</td>
+
+            <td class="verde">yy</td>
+
+            <td class="amarelo">yy</td>
+
+        </tr>
+
+        <tr>
+
+            <td class="verde">zz</td>
+
+            <td class="amarelo">zz</td>
+
+            <td class="verde">zz</td>
+
+            <td class="amarelo">zz</td>
+
+            <td class="verde">zz</td>
+
+        </tr>
+
+        <tr>
+
+            <td class="amarelo">ss</td>
+
+            <td class="verde">ss</td>
+
+            <td class="amarelo">ss</td>
+
+            <td class="verde">ss</td>
+
+            <td class="amarelo">ss</td>
+
+        </tr>
+
+    </table> <br>
+
+    <table style="left: 50px; top:150px; position:absolute;">
+
+        <tr id="unico">
+
+            <th>A</th>
+
+            <th>B</th>
+
+            <th>C</th>
+
+            <th>D</th>
+
+            <th>E</th>
+
+        </tr>
+
+        <tr>
+
+            <td class="verde">xx</td>
+
+            <td class="amarelo">xx</td>
+
+            <td class="verde">xx</td>
+
+            <td class="amarelo">xx</td>
+
+            <td class="verde">xx</td>
+
+        </tr>
+
+        <tr>
+
+            <td class="verde">yy</td>
+
+            <td class="amarelo">yy</td>
+
+            <td class="verde">yy</td>
+
+            <td class="amarelo">yy</td>
+
+            <td class="verde">yy</td>
+
+        </tr>
+
+        <tr>
+
+            <td class="verde">zz</td>
+
+            <td class="amarelo">zz</td>
+
+            <td class="verde">zz</td>
+
+            <td class="amarelo">zz</td>
+
+            <td class="verde">zz</td>
+
+        </tr>
+
+        <tr>
+
+            <td class="verde">ss</td>
+
+            <td class="amarelo">ss</td>
+
+            <td class="verde">ss</td>
+
+            <td class="amarelo">ss</td>
+
+            <td class="verde">ss</td>
+
+        </tr>
+
+    </table> <br>
+
+    <table style="left: 1115px; top:150px; position:absolute;">
+
+        <tr id="unico">
+
+            <th>A</th>
+
+            <th>B</th>
+
+            <th>C</th>
+
+            <th>D</th>
+
+            <th>E</th>
+
+        </tr>
+
+        <tr>
+
+            <td class="verde">xx</td>
+
+            <td class="verde">xx</td>
+
+            <td class="amarelo">xx</td>
+
+            <td class="amarelo">xx</td>
+
+            <td class="amarelo">xx</td>
+
+        </tr>
+
+        <tr>
+
+            <td class="verde">yy</td>
+
+            <td class="verde">yy</td>
+
+            <td class="verde">yy</td>
+
+            <td class="amarelo">yy</td>
+
+            <td class="amarelo">yy</td>
+
+        </tr>
+
+        <tr>
+
+            <td class="amarelo">zz</td>
+
+            <td class="amarelo">zz</td>
+
+            <td class="amarelo">zz</td>
+
+            <td class="verde">zz</td>
+
+            <td class="verde">zz</td>
+
+        </tr>
+
+        <tr>
+
+            <td class="amarelo">ss</td>
+
+            <td class="amarelo">ss</td>
+
+            <td class="verde">ss</td>
+
+            <td class="verde">ss</td>
+
+            <td class="verde">ss</td>
+
+        </tr>
+
+    </table> <br>
+
+
+</body>
+
+</html>
